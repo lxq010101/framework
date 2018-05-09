@@ -23,7 +23,6 @@ import com.ustcinfo.mobile.platform.ability.utils.HttpUtil;
 import com.ustcinfo.mobile.platform.ability.utils.MConfig;
 
 import api.amap.com.library.widgets.MAlertDialog;
-import api.amap.com.library.R;
 import rx.functions.Action1;
 
 /**
