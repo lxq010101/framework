@@ -52,7 +52,7 @@ dependencies {
     compile 'com.github.lovetuzitong:MultiImageSelector:1.2'
     compile 'top.zibin:Luban:1.1.3'
     compile 'com.lqr.audio:library:1.0.0'
-    compile ('com.github.SunndyZhao:umeng:latest.release')
-            {exclude group:'com.amap.api'}
+//    compile ('com.github.SunndyZhao:umeng:latest.release')
+//            {exclude group:'com.amap.api'}
 
 }

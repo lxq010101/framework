@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.amap.querry.AmapLocation;
 import com.tbruyelle.rxpermissions.RxPermissions;
 import com.ustcinfo.mobile.platform.ability.apicallback.HttpCallbackListener;
 import com.ustcinfo.mobile.platform.ability.jsbridge.JsMethodAdapter;
@@ -86,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             try {
                                 webView.loadUrl("file:///android_asset/demo/index.html");
-                                AmapLocation.get().lunch(MainActivity.this);
+//                                AmapLocation.get().lunch(MainActivity.this);
                             } catch (Exception e) {
                                 Toast.makeText(getApplicationContext(), "请放入h5文件", Toast.LENGTH_LONG).show();
                             }
